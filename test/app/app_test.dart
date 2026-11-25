@@ -1,4 +1,3 @@
-
 import 'package:drift/drift.dart' show driftRuntimeOptions;
 import 'package:drift/native.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
