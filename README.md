@@ -1,7 +1,7 @@
 # Kizuvia
 
 <p align="center">
-  <img src="assets/logo/logo.png" alt="Kizuvia Logo" width="160" />
+  <img src="assets/logo/splash-logo.png" alt="Kizuvia Logo" width="160" />
 </p>
 
 <p align="center">
