@@ -1,0 +1,511 @@
+{
+  "@@locale": "id",
+  "appName": "Kizuvia",
+  "taglineId": "Merawat, saling terhubung.",
+  "disclaimer": "Kizuvia adalah alat bantu pengingat. Aplikasi ini tidak memberikan saran medis. Selalu ikuti petunjuk dokter dan apoteker Anda.",
+  "navToday": "Hari ini",
+  "navPatients": "Pasien",
+  "navHistory": "Riwayat",
+  "navFamily": "Keluarga",
+  "homeTitle": "Hari ini",
+  "homeEmptyTitle": "Belum ada obat",
+  "homeEmptyAction": "Tambahkan obat pertama",
+  "routeNotFound": "Halaman tidak ditemukan",
+  "routeNotFoundAction": "Kembali ke beranda",
+  "notifChannelAlarm": "Pengingat minum obat",
+  "notifChannelFollowup": "Pengingat ulang",
+  "notifChannelStock": "Stok obat",
+  "notifTitle": "{patient}: waktunya minum obat",
+  "@notifTitle": {
+    "placeholders": {
+      "patient": {
+        "type": "String"
+      }
+    }
+  },
+  "notifTitlePrivate": "Waktunya minum obat",
+  "notifBodyPrivate": "{count} obat dijadwalkan pukul {time}",
+  "@notifBodyPrivate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "notifBodyGroup": "Waktunya minum {count} obat ({time}): {names}",
+  "@notifBodyGroup": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      },
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "notifFollowupTitle": "{patient}: obat belum dikonfirmasi",
+  "@notifFollowupTitle": {
+    "placeholders": {
+      "patient": {
+        "type": "String"
+      }
+    }
+  },
+  "notifStockBody": "{name} tinggal {days} hari lagi. Jangan lupa tebus resep.",
+  "@notifStockBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "actionTaken": "Sudah minum",
+  "actionSnooze": "Tunda 10 menit",
+  "actionSkip": "Lewati",
+  "onbWelcomeTitle": "Selamat datang di Kizuvia",
+  "onbWelcomeBody": "Pengingat obat untuk keluarga. Alarm tetap berbunyi tanpa internet.",
+  "consentLabel": "Saya setuju data kesehatan saya disimpan di perangkat ini dan, jika saya masuk akun, disinkronkan ke keluarga saya.",
+  "consentRequired": "Centang persetujuan untuk melanjutkan",
+  "continueAction": "Lanjut",
+  "startAction": "Mulai",
+  "skipForNow": "Nanti saja",
+  "permTitle": "Izinkan pengingat",
+  "permBody": "Agar alarm obat berbunyi tepat waktu, Kizuvia perlu izin notifikasi dan alarm. Dua izin terakhir opsional, tapi membantu alarm tetap terdengar.",
+  "permNotifAction": "Izinkan notifikasi",
+  "permExactAction": "Izinkan alarm tepat waktu",
+  "permGranted": "Sudah diizinkan",
+  "batteryTitle": "Agar alarm tidak terlewat",
+  "batteryBody": "Beberapa ponsel menghentikan aplikasi di latar belakang. Ikuti langkah sesuai merek ponsel Anda.",
+  "batteryXiaomi": "Xiaomi / Redmi / POCO: Pengaturan > Aplikasi > Kizuvia > Hemat baterai > Tanpa batasan. Aktifkan juga Mulai otomatis.",
+  "batteryOppo": "Oppo / Realme / OnePlus: Pengaturan > Baterai > Kizuvia > Izinkan aktivitas latar belakang. Aktifkan Mulai otomatis.",
+  "batteryVivo": "Vivo / iQOO: Pengaturan > Baterai > Konsumsi daya latar belakang > Kizuvia > Izinkan. Aktifkan Mulai otomatis.",
+  "batterySamsung": "Samsung: Pengaturan > Baterai > Batas penggunaan di latar belakang > Aplikasi yang tidak pernah tidur > tambahkan Kizuvia.",
+  "batteryOther": "Ponsel lain: Pengaturan > Aplikasi > Kizuvia > Baterai > Tanpa batasan.",
+  "alarmHelpTitle": "Alarm tidak bunyi?",
+  "bannerNotifOff": "Notifikasi mati, alarm tidak akan muncul. Aktifkan izin notifikasi",
+  "bannerExactOff": "Alarm mungkin tidak berbunyi tepat waktu. Aktifkan izin alarm",
+  "save": "Simpan",
+  "cancel": "Batal",
+  "delete": "Hapus",
+  "edit": "Ubah",
+  "add": "Tambah",
+  "back": "Kembali",
+  "retry": "Coba lagi",
+  "errorGeneric": "Terjadi masalah saat menyimpan. Coba lagi.",
+  "loadError": "Data belum bisa dimuat. Coba lagi.",
+  "patientsTitle": "Pasien",
+  "patientsEmpty": "Belum ada pasien",
+  "patientsEmptyAction": "Tambah pasien",
+  "patientFormNew": "Tambah pasien",
+  "patientFormEdit": "Ubah pasien",
+  "fieldName": "Nama",
+  "fieldBirthYear": "Tahun lahir",
+  "fieldConditions": "Kondisi (label, pisahkan dengan koma)",
+  "fieldNotes": "Catatan",
+  "errNameRequired": "Periksa kembali nama",
+  "errBirthYear": "Periksa kembali tahun lahir",
+  "deletePatientTitle": "Hapus pasien?",
+  "deletePatientBody": "Pasien dan semua obatnya akan dihapus dari aplikasi.",
+  "medsEmpty": "Belum ada obat",
+  "addMed": "Tambah obat",
+  "medFormNew": "Tambah obat",
+  "medFormEdit": "Ubah obat",
+  "fieldMedName": "Nama obat",
+  "fieldStrength": "Kekuatan (mis. 10 mg)",
+  "fieldForm": "Bentuk",
+  "fieldDoseQty": "Jumlah per dosis",
+  "fieldFrequency": "Frekuensi",
+  "freq1": "1x sehari",
+  "freq2": "2x sehari",
+  "freq3": "3x sehari",
+  "freq4": "4x sehari",
+  "freqCustom": "Atur sendiri",
+  "freqPrn": "Bila perlu",
+  "fieldTimes": "Jam minum",
+  "addTime": "Tambah jam",
+  "removeTime": "Hapus jam",
+  "fieldDays": "Hari",
+  "dayMon": "Sen",
+  "dayTue": "Sel",
+  "dayWed": "Rab",
+  "dayThu": "Kam",
+  "dayFri": "Jum",
+  "daySat": "Sab",
+  "daySun": "Min",
+  "fieldMeal": "Relasi makan",
+  "mealBefore": "Sebelum makan",
+  "mealAfter": "Sesudah makan",
+  "mealWith": "Bersama makan",
+  "mealAny": "Bebas",
+  "fieldStartDate": "Tanggal mulai",
+  "fieldEndDate": "Tanggal selesai",
+  "noEndDate": "Tanpa tanggal selesai",
+  "clearDate": "Hapus tanggal",
+  "fieldStock": "Stok saat ini",
+  "fieldRefill": "Ingatkan saat stok tersisa (hari)",
+  "fieldInstructions": "Instruksi atau catatan",
+  "formTablet": "Tablet",
+  "formKapsul": "Kapsul",
+  "formSirup": "Sirup",
+  "formTetes": "Tetes",
+  "formSalep": "Salep",
+  "formInjeksi": "Injeksi",
+  "formInhaler": "Inhaler",
+  "formLainnya": "Lainnya",
+  "fieldPhoto": "Foto obat",
+  "photoAdd": "Tambah foto",
+  "photoChange": "Ganti foto",
+  "photoRemove": "Hapus foto",
+  "errMedName": "Periksa kembali nama obat",
+  "errDoseQty": "Periksa kembali jumlah per dosis",
+  "errNeedTime": "Tambahkan minimal satu jam minum",
+  "errNeedDay": "Pilih minimal satu hari",
+  "reviewTitle": "Periksa sebelum menyimpan",
+  "reviewHint": "Pastikan nama, kekuatan, dan jadwal sudah sesuai dengan etiket atau resep Anda.",
+  "deleteMedTitle": "Hapus obat?",
+  "deleteMedBody": "Obat dan jadwalnya akan dihapus. Alarmnya ikut berhenti.",
+  "selectItems": "Pilih",
+  "selectAll": "Pilih semua",
+  "cancelSelection": "Batalkan pilihan",
+  "selectedCount": "{count} dipilih",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deletePatientsTitle": "Hapus {count} pasien?",
+  "@deletePatientsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteMedsTitle": "Hapus {count} obat?",
+  "@deleteMedsTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "medDetailTitle": "Detail obat",
+  "scheduleSummary": "Jam {times}",
+  "@scheduleSummary": {
+    "placeholders": {
+      "times": {
+        "type": "String"
+      }
+    }
+  },
+  "daysEveryDay": "Setiap hari",
+  "prnNote": "Bila perlu: tidak ada alarm.",
+  "stockLeft": "Stok: {qty}",
+  "@stockLeft": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "stockDaysLeft": "Sisa sekitar {days} hari",
+  "@stockDaysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "stockLow": "{name} tinggal {days} hari lagi. Jangan lupa tebus resep.",
+  "@stockLow": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "stockUnknown": "Stok belum diisi",
+  "restock": "Tambah stok",
+  "restockQty": "Jumlah yang ditambahkan",
+  "lowStockBadge": "Stok menipis",
+  "filterAll": "Semua",
+  "todayEmptyTitle": "Belum ada obat",
+  "todayEmptyBody": "Tambahkan pasien dan obat pertama untuk mulai.",
+  "todayNothing": "Tidak ada dosis terjadwal hari ini",
+  "statusUpcoming": "Akan datang",
+  "statusNow": "Sekarang",
+  "statusTaken": "Diminum",
+  "statusSkipped": "Dilewati",
+  "statusMissed": "Belum dikonfirmasi",
+  "takenAction": "Sudah minum",
+  "skipAction": "Lewati",
+  "confirmedTaken": "Tercatat. {name} diminum {time}",
+  "@confirmedTaken": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "confirmedSkipped": "Dosis {name} dilewati",
+  "@confirmedSkipped": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "doseDetailTitle": "Detail dosis",
+  "doseNotFound": "Dosis tidak ditemukan",
+  "scheduledFor": "Jadwal {time}",
+  "@scheduledFor": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "allDoneToday": "Semua dosis hari ini sudah tercatat",
+  "scanNotLabel": "Foto ini sepertinya bukan etiket atau kemasan obat. Coba foto ulang.",
+  "widgetNext": "Berikutnya {time}",
+  "@widgetNext": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "widgetNone": "Tidak ada dosis berikutnya",
+  "widgetPrivateBody": "Obat dijadwalkan",
+  "appLock": "Kunci aplikasi",
+  "appLockHint": "Minta sidik jari, wajah, atau PIN HP saat membuka aplikasi. Alarm minum obat tetap bisa dibuka.",
+  "appLockReason": "Buka Kizuvia",
+  "appLockTitle": "Kizuvia terkunci",
+  "appLockUnlock": "Buka kunci",
+  "appLockUnavailable": "Atur kunci layar (PIN, pola, atau sidik jari) di HP terlebih dahulu.",
+  "educationTitle": "Tentang kondisi",
+  "educationEmpty": "Belum ada informasi untuk kondisi yang tercatat. Tambahkan kondisi seperti hipertensi, diabetes, kolesterol, atau jantung di data pasien.",
+  "educationSources": "Sumber",
+  "elderlyNextDose": "Obat berikutnya",
+  "elderlyMoreAtSameTime": "Masih ada {count} obat lain pada jam ini",
+  "@elderlyMoreAtSameTime": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyTitle": "Riwayat",
+  "historyEmpty": "Belum ada riwayat dosis",
+  "adherenceLabel": "Kepatuhan {days} hari: {percent}%",
+  "@adherenceLabel": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "adherenceNone": "Belum ada data kepatuhan",
+  "legendAll": "Semua diminum",
+  "legendPartial": "Sebagian",
+  "legendMissed": "Ada yang belum dikonfirmasi",
+  "legendNone": "Tidak ada jadwal",
+  "perMedication": "Per obat",
+  "familyTitle": "Keluarga",
+  "familyPlaceholder": "Berbagi dengan keluarga tersedia setelah Anda masuk akun. Fitur ini segera hadir.",
+  "settingsTitle": "Pengaturan",
+  "elderlyMode": "Mode lansia",
+  "elderlyModeHint": "Teks dan tombol lebih besar",
+  "privacyLock": "Sembunyikan nama di layar kunci",
+  "privacyLockHint": "Notifikasi tidak menampilkan nama pasien dan obat",
+  "permDndAction": "Izinkan alarm saat mode Jangan Ganggu",
+  "permFullScreenAction": "Izinkan alarm tampil di layar kunci",
+  "notifChannelCaregiver": "Peringatan keluarga",
+  "loginTitle": "Masuk",
+  "loginBody": "Masuk agar keluarga bisa berbagi jadwal obat. Kami kirim tautan masuk ke email Anda.",
+  "fieldEmail": "Email",
+  "errEmail": "Periksa kembali alamat email",
+  "sendCode": "Kirim tautan",
+  "resendCode": "Kirim ulang tautan",
+  "codeSentTo": "Tautan terkirim ke {email}. Buka email itu di ponsel ini lalu ketuk tautannya.",
+  "@codeSentTo": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "errSendCode": "Kode belum terkirim. Periksa koneksi internet lalu coba lagi.",
+  "errRateLimit": "Batas pengiriman email tercapai. Tunggu sekitar satu jam, lalu coba lagi.",
+  "accountUnavailable": "Layanan akun belum tersedia di versi aplikasi ini.",
+  "familyIntroTitle": "Bagikan dengan keluarga",
+  "familyIntroBody": "Masuk akun agar anggota keluarga bisa melihat jadwal obat dan diberi tahu jika dosis terlewat. Aplikasi tetap bisa dipakai tanpa akun.",
+  "signInAction": "Masuk atau daftar",
+  "signOutAction": "Keluar akun",
+  "signedInAs": "Masuk sebagai {email}",
+  "@signedInAs": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "familyNoneTitle": "Belum ada keluarga",
+  "familyNoneBody": "Buat keluarga baru, atau gabung dengan kode undangan dari anggota keluarga.",
+  "createFamilyAction": "Buat keluarga",
+  "joinFamilyAction": "Gabung dengan kode",
+  "fieldFamilyName": "Nama keluarga",
+  "fieldYourName": "Nama Anda di keluarga",
+  "errFamilyName": "Periksa kembali nama keluarga",
+  "fieldInviteCode": "Kode undangan",
+  "errInviteCode": "Kode undangan terdiri dari 6 karakter",
+  "joinAction": "Gabung",
+  "attachLocalTitle": "Tambahkan data di perangkat ini?",
+  "attachLocalBody": "Pasien dan obat yang sudah ada di perangkat ini akan dibagikan ke keluarga.",
+  "attachAction": "Tambahkan",
+  "errInviteInvalid": "Kode undangan tidak valid atau sudah kedaluwarsa.",
+  "errAlreadyMember": "Anda sudah menjadi anggota keluarga ini.",
+  "errLastOwner": "Keluarga harus punya minimal satu owner. Jadikan anggota lain owner dulu.",
+  "errForbidden": "Anda tidak punya izin untuk tindakan ini.",
+  "errTooManyInvites": "Terlalu banyak undangan aktif. Tunggu sampai ada yang kedaluwarsa.",
+  "errNetwork": "Tidak ada koneksi. Coba lagi saat online.",
+  "membersTitle": "Anggota",
+  "roleOwner": "Owner",
+  "roleCaregiver": "Pendamping",
+  "rolePatient": "Pasien",
+  "youSuffix": "(Anda)",
+  "inviteAction": "Undang anggota",
+  "inviteRole": "Peran undangan",
+  "inviteCodeTitle": "Kode undangan",
+  "inviteCodeHint": "Berlaku 7 hari dan hanya bisa dipakai sekali.",
+  "inviteShareText": "Gabung ke keluarga saya di Kizuvia. Kode undangan: {code}. Atau buka kizuvia://invite/{code}",
+  "@inviteShareText": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "copyCode": "Salin kode",
+  "shareCode": "Bagikan",
+  "codeCopied": "Kode disalin",
+  "changeRole": "Ubah peran",
+  "removeMember": "Keluarkan",
+  "removeMemberTitle": "Keluarkan anggota?",
+  "removeMemberBody": "Anggota ini tidak akan melihat data keluarga lagi.",
+  "leaveFamily": "Keluar dari keluarga",
+  "leaveFamilyTitle": "Keluar dari keluarga?",
+  "leaveFamilyBody": "Anda tidak akan melihat data keluarga ini lagi. Data di perangkat tetap ada.",
+  "notifyMissedLabel": "Beri tahu saya jika dosis terlewat",
+  "syncStatusSynced": "Tersinkron",
+  "syncStatusPending": "{count} perubahan menunggu dikirim",
+  "@syncStatusPending": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncStatusOffline": "Offline. Perubahan akan dikirim saat online.",
+  "syncNow": "Sinkronkan sekarang",
+  "memberCount": "{count} anggota",
+  "@memberCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pushMissedTitle": "{patient} belum minum obat",
+  "@pushMissedTitle": {
+    "placeholders": {
+      "patient": {
+        "type": "String"
+      }
+    }
+  },
+  "scanAction": "Scan etiket",
+  "scanHint": "Hasil scan hanya draf. Periksa sebelum menyimpan.",
+  "scanReview": "Periksa kembali",
+  "scanDone": "Hasil scan sudah terisi. Periksa sebelum menyimpan.",
+  "scanNothing": "Teks etiket belum terbaca. Coba foto lebih dekat dan terang.",
+  "scanError": "Scan belum berhasil. Isi manual atau coba lagi.",
+  "scanFromCamera": "Foto dengan kamera",
+  "scanFromGallery": "Pilih dari galeri",
+  "scanning": "Membaca etiket",
+  "exportAction": "Ekspor PDF untuk dokter",
+  "exportTitle": "Ekspor laporan",
+  "exportPatient": "Pasien",
+  "exportRange": "Terakhir {days} hari",
+  "@exportRange": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "exportCreate": "Buat PDF",
+  "exportError": "PDF belum bisa dibuat. Coba lagi.",
+  "exportNoPatients": "Tambahkan pasien terlebih dulu.",
+  "reportTitle": "Laporan kepatuhan minum obat",
+  "reportPatient": "Pasien: {name}",
+  "@reportPatient": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reportPeriod": "Periode: {from} - {to}",
+  "@reportPeriod": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "reportGenerated": "Dibuat dengan Kizuvia pada {date}",
+  "@reportGenerated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "reportSummary": "Ringkasan",
+  "reportAdherence": "Kepatuhan",
+  "reportTaken": "Diminum",
+  "reportSkipped": "Dilewati",
+  "reportMissed": "Belum dikonfirmasi",
+  "reportMedColumn": "Obat",
+  "reportScheduleColumn": "Jadwal",
+  "reportDetail": "Rincian dosis",
+  "reportDateColumn": "Tanggal",
+  "reportTimeColumn": "Jam",
+  "reportStatusColumn": "Status",
+  "reportNoData": "Tidak ada dosis tercatat pada periode ini.",
+  "familyDefaultName": "Keluarga saya"
+}

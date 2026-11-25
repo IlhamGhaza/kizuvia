@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "581192582845",
+    "project_id": "kizuvia-453db",
+    "storage_bucket": "kizuvia-453db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581192582845:android:d3ef4d7ac453efeb7259d4",
+        "android_client_info": {
+          "package_name": "com.igz.kizuvia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIagt-_26eMFufxTzlM7st272BuB1DcBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

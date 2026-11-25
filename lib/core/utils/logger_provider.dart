@@ -1,0 +1,7 @@
+import 'package:kizuvia/core/utils/app_logger.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
+
+part 'logger_provider.g.dart';
+
+@Riverpod(keepAlive: true)
+AppLogger appLogger(Ref ref) => AppLogger();
